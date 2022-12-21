@@ -8,7 +8,7 @@ function minus() {
     }
 
     position = position - 1;
-    formula = 'url(/photo-' + position + '.jpg)';
+    formula = 'url(./photo-' + position + '.jpg)';
     back.style.backgroundImage = formula;
 }
 function plus() {
@@ -17,6 +17,6 @@ function plus() {
     }
 
     position = position + 1;
-    formula = 'url(/photo-' + position + '.jpg)';
+    formula = 'url(./photo-' + position + '.jpg)';
     back.style.backgroundImage = formula;
 }
